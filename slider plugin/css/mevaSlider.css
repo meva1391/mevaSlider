@@ -1,0 +1,54 @@
+
+.mevaSlide .wrapper {
+    overflow: hidden;
+    position: relative;
+    background:#fff;
+}
+ 
+.mevaSlide .wrapper img {
+    position: absolute; 
+}
+ 
+.mevaSlide a.prev,
+.mevaSlide a.next {
+    display: none;
+    margin-top: -1em;
+    padding: 1em 1em;
+    position: absolute;
+    text-decoration: none;
+    top: 50%;
+    background:rgb(27, 27, 27);
+    color:#fff;
+    font:bold 10px Arial;
+}
+.mevaSlide a.next {
+    right: 0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.mevaSlide a.prev {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+ 
+.mevaSlide .nav {
+    margin: .5em 0;
+    overflow: hidden;
+}
+
+.mevaSlide .nav a {
+    float:left;
+    margin: .2em;
+    min-width: 1em;
+    padding: .2em .7em;
+    text-align: center;
+    text-decoration: none;
+    background:#7d7e7d;
+    border-radius:3px;
+    color:#fff; 
+    font:bold 12px Arial;
+}
+.mevaSlide .nav a.current {
+    background:#1e5799;
+}
