@@ -1,2 +1,2 @@
 # mevaSlider
-Its a simple plugin slider
+Its a simple plugin slider **** 
