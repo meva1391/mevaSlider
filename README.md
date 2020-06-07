@@ -1,3 +1,3 @@
 # mevaSlider
 Its a simple plugin slider **** 
-another text just for test
+yeah its okey but i need some changes too another text just for test
